@@ -1,5 +1,8 @@
 # build output
 dist/
+.vercel/
+.netlify/
+
 # generated types
 .astro/
 
@@ -25,3 +28,6 @@ pnpm-debug.log*
 
 # output log
 output-log.md
+
+# NPMRC file for Development Mode only ('cause Vercel error message: "Detected unsupported "use-node-version" in your ".npmrc"
+.npmrc
