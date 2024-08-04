@@ -2,20 +2,20 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import "../styles/global.css";
 
-const pageTitle = "Aliz.bog ✍";
+const pageTitle = "carvier.dev ✍";
 
 const identity = {
-  firstName: "Aliz",
-  country: "Canada",
-  occupation: "Technical Writer",
+  firstName: "Carvier",
+  country: "Around The World",
+  occupation: "Programmer, Writer and Entreprenuer",
   hobbies: [
-    "writing about hot-stuff",
-    "reading fictional books",
+    "writing code and articles",
+    "reading entreprenuer things",
     "watching YouTube",
   ],
 };
 
-const skills = ["HTML", "CSS", "JavaScript", "Astro", "Writing Docs"];
+const skills = ["HTML", "CSS", "JavaScript", "Astro", "Next.js"];
 
 const happy = true;
 const finished = false;
@@ -53,7 +53,7 @@ const textCase = "uppercase";
   <ul>
     <li>My name is {identity.firstName}.</li>
     <li>
-      I live in {identity.country} and I work as a {identity.occupation}.
+      I live {identity.country} and I work as a {identity.occupation}.
     </li>
     {
       identity.hobbies.length >= 2 && (
