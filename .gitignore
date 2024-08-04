@@ -31,3 +31,7 @@ output-log.md
 
 # NPMRC file for Development Mode only ('cause Vercel error message: "Detected unsupported "use-node-version" in your ".npmrc"
 .npmrc
+
+# Files for document the Git Spr Issue
+Git-SPR-Issue.md
+image.png
