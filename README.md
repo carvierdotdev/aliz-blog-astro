@@ -1,4 +1,4 @@
 # To-Do
 
-- [ ] Configure Speed Insights for Vercel
+- [x] Configure Speed Insights for Vercel
 - [ ]
