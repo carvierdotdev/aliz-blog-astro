@@ -73,6 +73,22 @@ h1 {
   display: unset;
 }
 
+/* Link Styles */
+a {
+  color: #5c5cb6; /* Matches the skillColor from about.astro */
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #1f1e32; /* Darker color for hover effect */
+  text-decoration: none;
+}
+html.dark a:hover {
+  color: #b4d2ef; /* Darker color for hover effect */
+  text-decoration: none;
+}
+
 @media screen and (min-width: 636px) {
   .nav-links {
     margin-left: 5em;
