@@ -1,11 +1,11 @@
 html {
-  background-color: #f1f5f9;
+  background-color: #b4d2ef;
   font-family: sans-serif;
 }
 
 /* dark mode style */
 html.dark {
-  background-color: #0d0950;
+  background-color: #1f1e32;
   color: #fff;
 }
 
