@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/MarkdownPostLayout.astro"
 title: "Astro A Good Way of Building"
 author: "Astro Learner"
 description: "I had some challenges, but asking in the community really helped!"
