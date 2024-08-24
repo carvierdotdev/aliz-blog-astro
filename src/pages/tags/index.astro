@@ -3,7 +3,7 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 
 export const prerender = true; // to prerender the page as static HTML during the build process.
 
-const allPosts = await Astro.glob("../posts/*.md");
+const allPosts = await Astro.glob("../../content/posts/*.md");
 const tags = [...new Set(allPosts.map((post) => post.frontmatter.tags).flat())];
 const pageTitle = "Tag Index";
 ---
